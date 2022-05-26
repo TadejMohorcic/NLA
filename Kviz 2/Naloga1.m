@@ -1,7 +1,7 @@
 A = magic(6); [U,R] = schur(A);
 
 % 1. del naloge
-[Q, R2] = ZamenjajSosednja(R, 3);
+[Q,R2] = ZamenjajSosednja(R,3);
 n = norm(R-R2);
 disp(n);
 

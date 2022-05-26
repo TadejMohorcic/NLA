@@ -1,4 +1,4 @@
-function [Q, R2] = ZamenjajSosednja(R, i)
+function [Q, R2] = ZamenjajSosednja(R,i)
 % Funkcija sprejme zg. trikotno matriko R in index i, ter zamenja
 % diagonalna elementa na mestih (i,i) in (i+1,i+1).
 n = size(R);
