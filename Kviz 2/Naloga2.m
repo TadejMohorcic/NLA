@@ -3,7 +3,7 @@ g = @(x,y,z) 5.3e-4 * x.^2 + 5.3e-4 * y.^2 + 5.3e-4 * z.^2 + 2.7e-2 * x - 1;
 h = @(x,y,z) 1.4e-4 * x + 1.0e-4 * y + z - 3.4e-3;
 
 % 1. del naloge
-interval = [-50 50 -50 50 -50 60];
+interval = [-50 50 -50 50 -50 50];
 % fimplicit3(f, interval)
 % hold on
 % fimplicit3(g, interval)
